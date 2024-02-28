@@ -5,6 +5,21 @@ using namespace std;
 #define nll cout<<"\n";
 #define p(x) cout<<x<<"\n";
 
+/*
+1 2 3
+4 5 6
+7 8 9
+
+corner1=1
+corner2=3
+corner3=7
+corner4=9
+
+je corner theke loop chola suru hobe tar index diye nested 
+loop initialize hobe r sesh hobe opposite value diye
+
+arr[a][b] --> Here a,b always represents row and column of array respectively.
+*/
 void solve()
 {
     int r=10;
